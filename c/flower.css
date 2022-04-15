@@ -1,0 +1,47 @@
+body* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navs {
+    text-align: center;
+    background-color: rgb(65, 25, 102);
+    color: #ff3f;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.navs a {
+    text-decoration: none;
+    color: linear gradient (to right, red, orange, yellow, green);
+    font-weight: bold;
+    margin: 20px;
+    transition: all ease-in-out;
+}
+
+#img-div {
+    position: absolute;
+    right: 50px;
+    margin-top: 10%;
+}
+
+h2 {
+    margin: 5%;
+    padding: 20px;
+    border: 3px dashed rgb(14, 7, 44);
+    font-style: oblique;
+    font-size: 3em;
+    text-align: center;
+    color: #ff3f;
+}
+
+p {
+    margin: 20px;
+    padding: 20px;
+    font-weight: 3rem;
+    font-size: larger;
+    font-style: italic;
+}

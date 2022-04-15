@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Login Form Demo</title>
+    </head>
+    <body> 
+        <div class="login-wrapper">
+           <form action="" class="form">
+               <img src="images/boy.png" alt="">
+               <h2>Login</h2>
+               <div class="input-group">
+                 <input type="text" name="loginuser" id="loginuser" required>
+                <label for="loginuser">Username</label>
+               </div>
+               <div class="input-group"> 
+               <input type="Password" name="loginpassword" id="loginpassword" required>
+                <label for="loginpassword">Password</label>
+                </div>
+                <input type="submit" value="Login" class="submit-btn">
+                <a href="#forgot-pw" class="forgot-pw">Forgot password?</a>
+            </form> 
+
+            <div id="forgot-pw">
+                <form action="" class="form">
+                <a href="#" class="close">&times;</a>
+                <h2>Reset password</h2>
+                <div class="input-group">
+                <input type="email" name="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+                <input type="submit" value="submit" class="submit-btn">
+        </form>
+    </div>    
+    </div> 
+    </body>
+</html>

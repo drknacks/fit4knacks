@@ -1,0 +1,47 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: black;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    box-shadow: gray 8px 8px 8px;
+    cursor: pointer;
+}
+nav ul li{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+    padding: 20px;
+}
+.bars{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+.flower{
+    height: 5em;
+    width: 5em;
+    background-size: 5em;
+}
+h1{
+    color: black;
+    font-size: 4em;
+    font-weight: bold;
+}
+span{
+    color: green;
+}
+.hero{
+    display: flex;
+}
+#image{
+    background-size: 200px;
+    width: 20em;
+    height: 20em;
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:ital,wght@0,400;1,500&display=swap");
+:root {
+  --primary-color:rgb(60, 60, 224);
+}
+
+body {
+  margin: o;
+  background: #6060dd;
+}
+
+.navbar {
+  padding: 1em;
+  background: white;
+}
+
+.navbar .logo {
+  color: #2c0e0e;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=fit4knacks.css.map */
